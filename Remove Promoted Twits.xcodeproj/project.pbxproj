@@ -1,0 +1,966 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FDBFFF14285F1CC800E45094 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBFFF13285F1CC800E45094 /* AppDelegate.swift */; };
+		FDBFFF16285F1CC800E45094 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBFFF15285F1CC800E45094 /* SceneDelegate.swift */; };
+		FDBFFF19285F1CC800E45094 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDBFFF17285F1CC800E45094 /* LaunchScreen.storyboard */; };
+		FDBFFF1C285F1CC800E45094 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDBFFF1A285F1CC800E45094 /* Main.storyboard */; };
+		FDBFFF25285F1CC800E45094 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBFFF24285F1CC800E45094 /* AppDelegate.swift */; };
+		FDBFFF28285F1CC800E45094 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDBFFF26285F1CC800E45094 /* Main.storyboard */; };
+		FDBFFF2F285F1CC800E45094 /* Remove Promoted Twits Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FDBFFF2E285F1CC800E45094 /* Remove Promoted Twits Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FDBFFF39285F1CC800E45094 /* Remove Promoted Twits Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FDBFFF38285F1CC800E45094 /* Remove Promoted Twits Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FDBFFF3F285F1CC800E45094 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = FDBFFEFA285F1CC500E45094 /* Main.html */; };
+		FDBFFF40285F1CC800E45094 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = FDBFFEFA285F1CC500E45094 /* Main.html */; };
+		FDBFFF41285F1CC800E45094 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FDBFFEFC285F1CC500E45094 /* Icon.png */; };
+		FDBFFF42285F1CC800E45094 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FDBFFEFC285F1CC500E45094 /* Icon.png */; };
+		FDBFFF43285F1CC800E45094 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = FDBFFEFD285F1CC500E45094 /* Style.css */; };
+		FDBFFF44285F1CC800E45094 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = FDBFFEFD285F1CC500E45094 /* Style.css */; };
+		FDBFFF45285F1CC800E45094 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = FDBFFEFE285F1CC500E45094 /* Script.js */; };
+		FDBFFF46285F1CC800E45094 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = FDBFFEFE285F1CC500E45094 /* Script.js */; };
+		FDBFFF47285F1CC800E45094 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBFFEFF285F1CC500E45094 /* ViewController.swift */; };
+		FDBFFF48285F1CC800E45094 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBFFEFF285F1CC500E45094 /* ViewController.swift */; };
+		FDBFFF49285F1CC800E45094 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDBFFF00285F1CC800E45094 /* Assets.xcassets */; };
+		FDBFFF4A285F1CC800E45094 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDBFFF00285F1CC800E45094 /* Assets.xcassets */; };
+		FDBFFF4B285F1CC800E45094 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBFFF02285F1CC800E45094 /* SafariWebExtensionHandler.swift */; };
+		FDBFFF4C285F1CC800E45094 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDBFFF02285F1CC800E45094 /* SafariWebExtensionHandler.swift */; };
+		FDBFFF4D285F1CC800E45094 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = FDBFFF04285F1CC800E45094 /* _locales */; };
+		FDBFFF4E285F1CC800E45094 /* _locales in Resources */ = {isa = PBXBuildFile; fileRef = FDBFFF04285F1CC800E45094 /* _locales */; };
+		FDBFFF4F285F1CC800E45094 /* images in Resources */ = {isa = PBXBuildFile; fileRef = FDBFFF05285F1CC800E45094 /* images */; };
+		FDBFFF50285F1CC800E45094 /* images in Resources */ = {isa = PBXBuildFile; fileRef = FDBFFF05285F1CC800E45094 /* images */; };
+		FDBFFF51285F1CC800E45094 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = FDBFFF06285F1CC800E45094 /* manifest.json */; };
+		FDBFFF52285F1CC800E45094 /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = FDBFFF06285F1CC800E45094 /* manifest.json */; };
+		FDBFFF53285F1CC800E45094 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = FDBFFF07285F1CC800E45094 /* background.js */; };
+		FDBFFF54285F1CC800E45094 /* background.js in Resources */ = {isa = PBXBuildFile; fileRef = FDBFFF07285F1CC800E45094 /* background.js */; };
+		FDBFFF55285F1CC800E45094 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = FDBFFF08285F1CC800E45094 /* content.js */; };
+		FDBFFF56285F1CC800E45094 /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = FDBFFF08285F1CC800E45094 /* content.js */; };
+		FDBFFF57285F1CC800E45094 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = FDBFFF09285F1CC800E45094 /* popup.html */; };
+		FDBFFF58285F1CC800E45094 /* popup.html in Resources */ = {isa = PBXBuildFile; fileRef = FDBFFF09285F1CC800E45094 /* popup.html */; };
+		FDBFFF59285F1CC800E45094 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = FDBFFF0A285F1CC800E45094 /* popup.css */; };
+		FDBFFF5A285F1CC800E45094 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = FDBFFF0A285F1CC800E45094 /* popup.css */; };
+		FDBFFF5B285F1CC800E45094 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = FDBFFF0B285F1CC800E45094 /* popup.js */; };
+		FDBFFF5C285F1CC800E45094 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = FDBFFF0B285F1CC800E45094 /* popup.js */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDBFFF30285F1CC800E45094 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDBFFEF4285F1CC500E45094 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDBFFF2D285F1CC800E45094;
+			remoteInfo = "Remove Promoted Twits Extension (iOS)";
+		};
+		FDBFFF3A285F1CC800E45094 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDBFFEF4285F1CC500E45094 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDBFFF37285F1CC800E45094;
+			remoteInfo = "Remove Promoted Twits Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FDBFFF62285F1CC800E45094 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FDBFFF2F285F1CC800E45094 /* Remove Promoted Twits Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDBFFF69285F1CC800E45094 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FDBFFF39285F1CC800E45094 /* Remove Promoted Twits Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FDBFFEFB285F1CC500E45094 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
+		FDBFFEFC285F1CC500E45094 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		FDBFFEFD285F1CC500E45094 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		FDBFFEFE285F1CC500E45094 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		FDBFFEFF285F1CC500E45094 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FDBFFF00285F1CC800E45094 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDBFFF02285F1CC800E45094 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		FDBFFF04285F1CC800E45094 /* _locales */ = {isa = PBXFileReference; lastKnownFileType = folder; path = _locales; sourceTree = "<group>"; };
+		FDBFFF05285F1CC800E45094 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		FDBFFF06285F1CC800E45094 /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = manifest.json; sourceTree = "<group>"; };
+		FDBFFF07285F1CC800E45094 /* background.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = background.js; sourceTree = "<group>"; };
+		FDBFFF08285F1CC800E45094 /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = content.js; sourceTree = "<group>"; };
+		FDBFFF09285F1CC800E45094 /* popup.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = popup.html; sourceTree = "<group>"; };
+		FDBFFF0A285F1CC800E45094 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = popup.css; sourceTree = "<group>"; };
+		FDBFFF0B285F1CC800E45094 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = popup.js; sourceTree = "<group>"; };
+		FDBFFF10285F1CC800E45094 /* Remove Promoted Twits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Remove Promoted Twits.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDBFFF13285F1CC800E45094 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDBFFF15285F1CC800E45094 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FDBFFF18285F1CC800E45094 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDBFFF1B285F1CC800E45094 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDBFFF1D285F1CC800E45094 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDBFFF22285F1CC800E45094 /* Remove Promoted Twits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Remove Promoted Twits.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDBFFF24285F1CC800E45094 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FDBFFF27285F1CC800E45094 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDBFFF29285F1CC800E45094 /* Remove Promoted Twits.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Remove Promoted Twits.entitlements"; sourceTree = "<group>"; };
+		FDBFFF2E285F1CC800E45094 /* Remove Promoted Twits Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Remove Promoted Twits Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDBFFF33285F1CC800E45094 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDBFFF38285F1CC800E45094 /* Remove Promoted Twits Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Remove Promoted Twits Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDBFFF3D285F1CC800E45094 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDBFFF3E285F1CC800E45094 /* Remove Promoted Twits.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Remove Promoted Twits.entitlements"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDBFFF0D285F1CC800E45094 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDBFFF1F285F1CC800E45094 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDBFFF2B285F1CC800E45094 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDBFFF35285F1CC800E45094 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FDBFFEF3285F1CC500E45094 = {
+			isa = PBXGroup;
+			children = (
+				FDBFFEF8285F1CC500E45094 /* Shared (App) */,
+				FDBFFF01285F1CC800E45094 /* Shared (Extension) */,
+				FDBFFF12285F1CC800E45094 /* iOS (App) */,
+				FDBFFF23285F1CC800E45094 /* macOS (App) */,
+				FDBFFF32285F1CC800E45094 /* iOS (Extension) */,
+				FDBFFF3C285F1CC800E45094 /* macOS (Extension) */,
+				FDBFFF11285F1CC800E45094 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDBFFEF8285F1CC500E45094 /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				FDBFFEFF285F1CC500E45094 /* ViewController.swift */,
+				FDBFFF00285F1CC800E45094 /* Assets.xcassets */,
+				FDBFFEF9285F1CC500E45094 /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		FDBFFEF9285F1CC500E45094 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FDBFFEFA285F1CC500E45094 /* Main.html */,
+				FDBFFEFC285F1CC500E45094 /* Icon.png */,
+				FDBFFEFD285F1CC500E45094 /* Style.css */,
+				FDBFFEFE285F1CC500E45094 /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FDBFFF01285F1CC800E45094 /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				FDBFFF02285F1CC800E45094 /* SafariWebExtensionHandler.swift */,
+				FDBFFF03285F1CC800E45094 /* Resources */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		FDBFFF03285F1CC800E45094 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FDBFFF04285F1CC800E45094 /* _locales */,
+				FDBFFF05285F1CC800E45094 /* images */,
+				FDBFFF06285F1CC800E45094 /* manifest.json */,
+				FDBFFF07285F1CC800E45094 /* background.js */,
+				FDBFFF08285F1CC800E45094 /* content.js */,
+				FDBFFF09285F1CC800E45094 /* popup.html */,
+				FDBFFF0A285F1CC800E45094 /* popup.css */,
+				FDBFFF0B285F1CC800E45094 /* popup.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		FDBFFF11285F1CC800E45094 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDBFFF10285F1CC800E45094 /* Remove Promoted Twits.app */,
+				FDBFFF22285F1CC800E45094 /* Remove Promoted Twits.app */,
+				FDBFFF2E285F1CC800E45094 /* Remove Promoted Twits Extension.appex */,
+				FDBFFF38285F1CC800E45094 /* Remove Promoted Twits Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDBFFF12285F1CC800E45094 /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				FDBFFF13285F1CC800E45094 /* AppDelegate.swift */,
+				FDBFFF15285F1CC800E45094 /* SceneDelegate.swift */,
+				FDBFFF17285F1CC800E45094 /* LaunchScreen.storyboard */,
+				FDBFFF1A285F1CC800E45094 /* Main.storyboard */,
+				FDBFFF1D285F1CC800E45094 /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		FDBFFF23285F1CC800E45094 /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				FDBFFF24285F1CC800E45094 /* AppDelegate.swift */,
+				FDBFFF26285F1CC800E45094 /* Main.storyboard */,
+				FDBFFF29285F1CC800E45094 /* Remove Promoted Twits.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		FDBFFF32285F1CC800E45094 /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				FDBFFF33285F1CC800E45094 /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		FDBFFF3C285F1CC800E45094 /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				FDBFFF3D285F1CC800E45094 /* Info.plist */,
+				FDBFFF3E285F1CC800E45094 /* Remove Promoted Twits.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDBFFF0F285F1CC800E45094 /* Remove Promoted Twits (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDBFFF63285F1CC800E45094 /* Build configuration list for PBXNativeTarget "Remove Promoted Twits (iOS)" */;
+			buildPhases = (
+				FDBFFF0C285F1CC800E45094 /* Sources */,
+				FDBFFF0D285F1CC800E45094 /* Frameworks */,
+				FDBFFF0E285F1CC800E45094 /* Resources */,
+				FDBFFF62285F1CC800E45094 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDBFFF31285F1CC800E45094 /* PBXTargetDependency */,
+			);
+			name = "Remove Promoted Twits (iOS)";
+			productName = "Remove Promoted Twits (iOS)";
+			productReference = FDBFFF10285F1CC800E45094 /* Remove Promoted Twits.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDBFFF21285F1CC800E45094 /* Remove Promoted Twits (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDBFFF6A285F1CC800E45094 /* Build configuration list for PBXNativeTarget "Remove Promoted Twits (macOS)" */;
+			buildPhases = (
+				FDBFFF1E285F1CC800E45094 /* Sources */,
+				FDBFFF1F285F1CC800E45094 /* Frameworks */,
+				FDBFFF20285F1CC800E45094 /* Resources */,
+				FDBFFF69285F1CC800E45094 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDBFFF3B285F1CC800E45094 /* PBXTargetDependency */,
+			);
+			name = "Remove Promoted Twits (macOS)";
+			productName = "Remove Promoted Twits (macOS)";
+			productReference = FDBFFF22285F1CC800E45094 /* Remove Promoted Twits.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDBFFF2D285F1CC800E45094 /* Remove Promoted Twits Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDBFFF5F285F1CC800E45094 /* Build configuration list for PBXNativeTarget "Remove Promoted Twits Extension (iOS)" */;
+			buildPhases = (
+				FDBFFF2A285F1CC800E45094 /* Sources */,
+				FDBFFF2B285F1CC800E45094 /* Frameworks */,
+				FDBFFF2C285F1CC800E45094 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Remove Promoted Twits Extension (iOS)";
+			productName = "Remove Promoted Twits Extension (iOS)";
+			productReference = FDBFFF2E285F1CC800E45094 /* Remove Promoted Twits Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		FDBFFF37285F1CC800E45094 /* Remove Promoted Twits Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDBFFF66285F1CC800E45094 /* Build configuration list for PBXNativeTarget "Remove Promoted Twits Extension (macOS)" */;
+			buildPhases = (
+				FDBFFF34285F1CC800E45094 /* Sources */,
+				FDBFFF35285F1CC800E45094 /* Frameworks */,
+				FDBFFF36285F1CC800E45094 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Remove Promoted Twits Extension (macOS)";
+			productName = "Remove Promoted Twits Extension (macOS)";
+			productReference = FDBFFF38285F1CC800E45094 /* Remove Promoted Twits Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDBFFEF4285F1CC500E45094 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					FDBFFF0F285F1CC800E45094 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					FDBFFF21285F1CC800E45094 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					FDBFFF2D285F1CC800E45094 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					FDBFFF37285F1CC800E45094 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = FDBFFEF7285F1CC500E45094 /* Build configuration list for PBXProject "Remove Promoted Twits" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDBFFEF3285F1CC500E45094;
+			productRefGroup = FDBFFF11285F1CC800E45094 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDBFFF0F285F1CC800E45094 /* Remove Promoted Twits (iOS) */,
+				FDBFFF21285F1CC800E45094 /* Remove Promoted Twits (macOS) */,
+				FDBFFF2D285F1CC800E45094 /* Remove Promoted Twits Extension (iOS) */,
+				FDBFFF37285F1CC800E45094 /* Remove Promoted Twits Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDBFFF0E285F1CC800E45094 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDBFFF41285F1CC800E45094 /* Icon.png in Resources */,
+				FDBFFF19285F1CC800E45094 /* LaunchScreen.storyboard in Resources */,
+				FDBFFF3F285F1CC800E45094 /* Main.html in Resources */,
+				FDBFFF45285F1CC800E45094 /* Script.js in Resources */,
+				FDBFFF49285F1CC800E45094 /* Assets.xcassets in Resources */,
+				FDBFFF1C285F1CC800E45094 /* Main.storyboard in Resources */,
+				FDBFFF43285F1CC800E45094 /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDBFFF20285F1CC800E45094 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDBFFF42285F1CC800E45094 /* Icon.png in Resources */,
+				FDBFFF44285F1CC800E45094 /* Style.css in Resources */,
+				FDBFFF28285F1CC800E45094 /* Main.storyboard in Resources */,
+				FDBFFF46285F1CC800E45094 /* Script.js in Resources */,
+				FDBFFF4A285F1CC800E45094 /* Assets.xcassets in Resources */,
+				FDBFFF40285F1CC800E45094 /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDBFFF2C285F1CC800E45094 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDBFFF53285F1CC800E45094 /* background.js in Resources */,
+				FDBFFF59285F1CC800E45094 /* popup.css in Resources */,
+				FDBFFF57285F1CC800E45094 /* popup.html in Resources */,
+				FDBFFF4F285F1CC800E45094 /* images in Resources */,
+				FDBFFF51285F1CC800E45094 /* manifest.json in Resources */,
+				FDBFFF4D285F1CC800E45094 /* _locales in Resources */,
+				FDBFFF55285F1CC800E45094 /* content.js in Resources */,
+				FDBFFF5B285F1CC800E45094 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDBFFF36285F1CC800E45094 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDBFFF54285F1CC800E45094 /* background.js in Resources */,
+				FDBFFF5A285F1CC800E45094 /* popup.css in Resources */,
+				FDBFFF58285F1CC800E45094 /* popup.html in Resources */,
+				FDBFFF50285F1CC800E45094 /* images in Resources */,
+				FDBFFF52285F1CC800E45094 /* manifest.json in Resources */,
+				FDBFFF4E285F1CC800E45094 /* _locales in Resources */,
+				FDBFFF56285F1CC800E45094 /* content.js in Resources */,
+				FDBFFF5C285F1CC800E45094 /* popup.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDBFFF0C285F1CC800E45094 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDBFFF47285F1CC800E45094 /* ViewController.swift in Sources */,
+				FDBFFF14285F1CC800E45094 /* AppDelegate.swift in Sources */,
+				FDBFFF16285F1CC800E45094 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDBFFF1E285F1CC800E45094 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDBFFF48285F1CC800E45094 /* ViewController.swift in Sources */,
+				FDBFFF25285F1CC800E45094 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDBFFF2A285F1CC800E45094 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDBFFF4B285F1CC800E45094 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDBFFF34285F1CC800E45094 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDBFFF4C285F1CC800E45094 /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDBFFF31285F1CC800E45094 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDBFFF2D285F1CC800E45094 /* Remove Promoted Twits Extension (iOS) */;
+			targetProxy = FDBFFF30285F1CC800E45094 /* PBXContainerItemProxy */;
+		};
+		FDBFFF3B285F1CC800E45094 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDBFFF37285F1CC800E45094 /* Remove Promoted Twits Extension (macOS) */;
+			targetProxy = FDBFFF3A285F1CC800E45094 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FDBFFEFA285F1CC500E45094 /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDBFFEFB285F1CC500E45094 /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		FDBFFF17285F1CC800E45094 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDBFFF18285F1CC800E45094 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		FDBFFF1A285F1CC800E45094 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDBFFF1B285F1CC800E45094 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FDBFFF26285F1CC800E45094 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FDBFFF27285F1CC800E45094 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDBFFF5D285F1CC800E45094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDBFFF5E285F1CC800E45094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FDBFFF60285F1CC800E45094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2M9QHNS2V9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Remove Promoted Twits Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.antondudakov.Remove-Promoted-Twits.Extension";
+				PRODUCT_NAME = "Remove Promoted Twits Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDBFFF61285F1CC800E45094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2M9QHNS2V9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Remove Promoted Twits Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.antondudakov.Remove-Promoted-Twits.Extension";
+				PRODUCT_NAME = "Remove Promoted Twits Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDBFFF64285F1CC800E45094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2M9QHNS2V9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Remove Promoted Twits";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.antondudakov.Remove-Promoted-Twits";
+				PRODUCT_NAME = "Remove Promoted Twits";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDBFFF65285F1CC800E45094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2M9QHNS2V9;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Remove Promoted Twits";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.antondudakov.Remove-Promoted-Twits";
+				PRODUCT_NAME = "Remove Promoted Twits";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDBFFF67285F1CC800E45094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Remove Promoted Twits.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2M9QHNS2V9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Remove Promoted Twits Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.antondudakov.Remove-Promoted-Twits.Extension";
+				PRODUCT_NAME = "Remove Promoted Twits Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FDBFFF68285F1CC800E45094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Remove Promoted Twits.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2M9QHNS2V9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Remove Promoted Twits Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.antondudakov.Remove-Promoted-Twits.Extension";
+				PRODUCT_NAME = "Remove Promoted Twits Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FDBFFF6B285F1CC800E45094 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Remove Promoted Twits.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2M9QHNS2V9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Remove Promoted Twits";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.antondudakov.Remove-Promoted-Twits";
+				PRODUCT_NAME = "Remove Promoted Twits";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FDBFFF6C285F1CC800E45094 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Remove Promoted Twits.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2M9QHNS2V9;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Remove Promoted Twits";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.antondudakov.Remove-Promoted-Twits";
+				PRODUCT_NAME = "Remove Promoted Twits";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDBFFEF7285F1CC500E45094 /* Build configuration list for PBXProject "Remove Promoted Twits" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDBFFF5D285F1CC800E45094 /* Debug */,
+				FDBFFF5E285F1CC800E45094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDBFFF5F285F1CC800E45094 /* Build configuration list for PBXNativeTarget "Remove Promoted Twits Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDBFFF60285F1CC800E45094 /* Debug */,
+				FDBFFF61285F1CC800E45094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDBFFF63285F1CC800E45094 /* Build configuration list for PBXNativeTarget "Remove Promoted Twits (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDBFFF64285F1CC800E45094 /* Debug */,
+				FDBFFF65285F1CC800E45094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDBFFF66285F1CC800E45094 /* Build configuration list for PBXNativeTarget "Remove Promoted Twits Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDBFFF67285F1CC800E45094 /* Debug */,
+				FDBFFF68285F1CC800E45094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDBFFF6A285F1CC800E45094 /* Build configuration list for PBXNativeTarget "Remove Promoted Twits (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDBFFF6B285F1CC800E45094 /* Debug */,
+				FDBFFF6C285F1CC800E45094 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDBFFEF4285F1CC500E45094 /* Project object */;
+}
