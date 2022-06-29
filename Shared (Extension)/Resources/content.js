@@ -1,4 +1,4 @@
-const promotionRegExp = /^Promoted[\s\w]*$/;
+const filteringRegExp = /((^Promoted[\s\w]*$)|(^See more$))/;
 
 const removePromotedTweets = () => {
     elements = document.getElementsByTagName('article');
@@ -9,7 +9,7 @@ const removePromotedTweets = () => {
 
         isPromoted = false
         for (j=0; j<spans.length && !isPromoted; j++){
-            if (promotionRegExp.test(spans[j].textContent)){
+            if (filteringRegExp.test(spans[j].textContent)){
                 console.log("promotion found by text \"" + spans[j].textContent + "\" in: " + elements[i].textContent);
                 isPromoted = true;
 
@@ -19,8 +19,7 @@ const removePromotedTweets = () => {
             }
         }
     }
-
-}
+}
 
 document.addEventListener("DOMNodeInserted", function (ev) {
     console.log("node inserted");
